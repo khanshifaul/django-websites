@@ -1,26 +1,33 @@
 # Django Cheatsheat
 
 ## pip3
+install pip3 on linux
 ```
 sudo apt install python3-pip
 ```
+check pip3 version
 ```
 pip3 --version
 ```
 
 ## virtualenv
+install virtualenv on linux using apt
 ```
 sudo apt-get install python-virtualenv virtualenv
 ```
+install virtualenv using pip3
 ```
 pip3 install virtualenv
 ```
+create an environment
 ```
 virtualenv -p python3 envgv1
 ```
+activate the environment
 ```
 source bin/activate
 ```
+deactiveate the environment
 ```
 deactivate
 ```
