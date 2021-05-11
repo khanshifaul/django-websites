@@ -26,13 +26,33 @@ deactivate
 ```
 
 ## django
-```git clone git://github.com/django/django django-dev```
-```pip3 install -e django-dev```
-```django-admin --version```
-```django-admin startproject proyect```
-```python manage.py createsuperuser```
-```python manage.py startapp name```
-```python manage.py runserver```
-```pip install -r requirements.txt```
-```python manage.py shell```
-```python manage.py collecstatic```
+```
+git clone git://github.com/django/django django-dev
+```
+```
+pip3 install -e django-dev
+```
+```
+django-admin --version
+```
+```
+django-admin startproject proyect
+```
+```
+python manage.py createsuperuser
+```
+```
+python manage.py startapp name
+```
+```
+python manage.py runserver
+```
+```
+pip install -r requirements.txt
+```
+```
+python manage.py shell
+```
+```
+python manage.py collecstatic
+```
