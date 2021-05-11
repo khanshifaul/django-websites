@@ -63,3 +63,10 @@ python manage.py shell
 ```
 python manage.py collecstatic
 ```
+## django-database
+```
+python manage.py makemigrations
+```
+```
+python manage.py migrate
+```
