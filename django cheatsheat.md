@@ -1,15 +1,29 @@
 # Django Cheatsheat
 
 ## pip3
-```sudo apt install python3-pip```
-```pip3 --version```
+```
+sudo apt install python3-pip
+```
+```
+pip3 --version
+```
 
 ## virtualenv
-```sudo apt-get install python-virtualenv virtualenv```
-```pip3 install virtualenv```
-```virtualenv -p python3 envgv1```
-```source bin/activate```
-```deactivate```
+```
+sudo apt-get install python-virtualenv virtualenv
+```
+```
+pip3 install virtualenv
+```
+```
+virtualenv -p python3 envgv1
+```
+```
+source bin/activate
+```
+```
+deactivate
+```
 
 ## django
 ```git clone git://github.com/django/django django-dev```
