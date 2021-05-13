@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container nav{
+  background-color: black;
+  font-weight: 700;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0.5rem 1.5rem;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navbar a:hover {
+  color: orangered;
+  background-color: silver;
+  border: orangered 0.1rem solid;
+}
