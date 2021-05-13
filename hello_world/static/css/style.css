@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Aquire;
+  src: url(../font/Aquire.otf);
+  font-weight: 800;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +13,26 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.container nav{
+.container {
+  /* height: 20rem; */
+  padding: 1rem;
   background-color: black;
   font-weight: 700;
 }
 
-.navbar {
+.container nav {
   text-align: center;
+  vertical-align: middle;
+}
+
+nav div {
+  display: inline-block;
+}
+
+.logo a {
+  font-family: "Aquire", "sans-serif";
+  font-size: x-large;
+  display: inline-block;
 }
 
 .navbar a {
@@ -27,5 +46,12 @@ body {
 .navbar a:hover {
   color: orangered;
   background-color: silver;
-  border: orangered 0.1rem solid;
+}
+
+.btn {
+  background-color: orangered;
+  border: none;
+  color: black;
+  padding: 0 0.5rem;
+  text-decoration: none;
 }
