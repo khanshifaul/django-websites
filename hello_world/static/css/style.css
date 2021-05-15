@@ -1,57 +1,78 @@
+@import "utilities.css";
+/* @import "grid.css"; */
+
 @font-face {
   font-family: Aquire;
   src: url(../font/Aquire.otf);
   font-weight: 800;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+:root {
+  --primary: rgb(255, 69, 0);
+  --dark: rgb(0, 0, 0);
+  --pure: rgb(255, 255, 255);
+  --light: rgb(137, 137, 137);
+  --ternary: rgb(242, 242, 242);
 }
 
+*,
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  --webkit-fontsmotthing: antialised;
+}
+
+header {
+  padding-top: 2rem;
+  background-color: var(--dark);
+  /* min-height: 10rem; */
 }
 
 .container {
-  /* height: 20rem; */
-  padding: 1rem;
-  background-color: black;
-  font-weight: 700;
+  margin: 0 auto;
+  padding: 0.5rem;
+  max-width: 80%;
 }
 
-.container nav {
-  text-align: center;
-  vertical-align: middle;
+header nav .left a {
+  margin-right: 2rem;
+  color: var(--pure);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-bottom: transparent 2px solid;
 }
-
-nav div {
-  display: inline-block;
+.branding {
+  margin-right: 3rem;
 }
-
-.logo a {
+.branding h1 {
+  color: var(--primary);
   font-family: "Aquire", "sans-serif";
   font-size: x-large;
-  display: inline-block;
+  font-weight: bolder;
 }
 
-.navbar a {
-  margin: 0.5rem 1.5rem;
-  padding: 0.5rem;
-  color: white;
-  text-decoration: none;
-  text-transform: capitalize;
+header nav .left a:hover {
+  color: var(--primary);
+  border-bottom: var(--primary) 2px solid;
 }
 
-.navbar a:hover {
-  color: orangered;
-  background-color: silver;
+/* HOME PAGE */
+
+.hero {
+  color: var(--pure);
+  background-color: var(--dark);
+  min-height: 35rem;
+  margin-bottom: 1rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 85%, 0 100%);
 }
 
-.btn {
-  background-color: orangered;
-  border: none;
-  color: black;
-  padding: 0 0.5rem;
-  text-decoration: none;
+.hero .left img {
+  width: 25rem;
+  margin: 0 10rem;
 }
+
